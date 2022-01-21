@@ -187,7 +187,7 @@ while True:
 					
 				elif data["type"]=="JoinedGroupByLink":
 					user = bot.getUserInfo(data['performer_object']['object_guid'])["data"]["user"]["first_name"]
-					bot.sendMessage(target, f"name} خوش اومدی😍❤️\nلطفا قوانین رو رعایت کن👌🙁\n\nکانال ما : @when_bored", message_id=msg["message_id"])
+					bot.sendMessage(target, f"های {user} به گروه {name} خوش اومدی😍❤️\nلطفا قوانین رو رعایت کن👌🙁\n\nکانال ما : @when_bored", message_id=msg["message_id"])
 
 			answered.append(msg.get("message_id"))
 
