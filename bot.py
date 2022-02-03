@@ -20,7 +20,6 @@ from Crypto.Cipher import AES
 from Crypto.Util.Padding import pad, unpad
 from requests import post
 from googletrans import Translator
-import io
 from bidi.algorithm import get_display
 from mutagen.mp3 import MP3
 from gtts import gTTS
